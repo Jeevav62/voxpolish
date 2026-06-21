@@ -37,21 +37,25 @@ Point it at a folder. Get back a clean dataset. That's it.
 
 ## 🎧 See & Hear the Difference
 
-Real output from this tool. The waveforms show the constant noise floor removed and dead air trimmed — speech stays, everything else goes.
+Real output from this tool — **press play to hear noisy → cleaned, back to back.** Each clip plays the original first, then the VoxPolish output (denoised, silence-trimmed, normalized to -23 LUFS). The waveform shows the constant noise floor removed and dead air trimmed.
 
 ### 🗣️ Voice Recording
 
+https://github.com/Jeevav62/voxpolish/raw/main/demo/jeeva_demo.mp4
+
 ![Voice before and after](demo/waveform_jeeva.png)
 
-▶️ **Listen:** [Before (noisy)](demo/jeeva_before.ogg) · [After (cleaned)](demo/jeeva_after.wav)
+▶️ Or download: [Before (noisy)](demo/jeeva_before.ogg) · [After (cleaned)](demo/jeeva_after.wav)
 
 ### 🚗 Background / Traffic Noise
 
+https://github.com/Jeevav62/voxpolish/raw/main/demo/car_demo.mp4
+
 ![Background noise before and after](demo/waveform_car.png)
 
-▶️ **Listen:** [Before (noisy)](demo/car_before.wav) · [After (cleaned)](demo/car_after.wav)
+▶️ Or download: [Before (noisy)](demo/car_before.wav) · [After (cleaned)](demo/car_after.wav)
 
-> Click a "Listen" link to play the audio directly on GitHub. Every "after" file is denoised, silence-trimmed, and normalized to -23 LUFS.
+> The video players above play **noisy → cleaned** in sequence so you can hear the difference directly on GitHub.
 
 ---
 
