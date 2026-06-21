@@ -1,0 +1,43 @@
+name: 💡 Feature Request
+description: Suggest an idea or improvement
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for the idea! Tell us what you'd like to see.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: What are you trying to do that's currently hard or impossible?
+      placeholder: When cleaning large datasets, I can't resume after a crash...
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+      description: What would you like to happen?
+      placeholder: Add a --resume flag that skips already-cleaned files.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Any other approaches you thought about?
+
+  - type: dropdown
+    id: contribute
+    attributes:
+      label: Would you be willing to help build this?
+      options:
+        - "Yes, I can submit a PR"
+        - "Yes, with some guidance"
+        - "No, just suggesting"
+    validations:
+      required: true
