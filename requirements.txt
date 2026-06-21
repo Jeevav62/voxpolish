@@ -1,0 +1,7 @@
+deepfilternet>=0.5.6
+torch>=2.0,<3.0
+torchaudio>=2.0,<3.0
+soundfile>=0.10
+pyloudnorm>=0.1.0
+gradio>=6.0
+tqdm>=4.0
