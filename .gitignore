@@ -1,0 +1,39 @@
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+*.egg
+
+# Model cache (denoiser downloads model weights here)
+*.ckpt
+*.onnx
+
+# Audio test artifacts — don't commit datasets
+samples/clean/
+samples/noisy/*.wav
+demo_review/
+*.zip
+
+# Reports
+cleaning_report.txt
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+
+# Keep the sample folders themselves
+!samples/noisy/.gitkeep
+!samples/clean/.gitkeep
