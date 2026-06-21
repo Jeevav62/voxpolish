@@ -12,8 +12,8 @@ Thanks for your interest in contributing! This project aims to be the simplest, 
 ## Development Setup
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/tts-dataset-cleaner.git
-cd tts-dataset-cleaner
+git clone https://github.com/Jeevav62/voxpolish.git
+cd voxpolish
 
 python -m venv venv
 # Windows: venv\Scripts\activate
@@ -64,4 +64,4 @@ Be kind, be constructive, assume good faith. We're here to build something usefu
 
 ## Questions?
 
-Open a [Discussion](https://github.com/YOUR_USERNAME/tts-dataset-cleaner/discussions) or an issue. Happy to help.
+Open a [Discussion](https://github.com/Jeevav62/voxpolish/discussions) or an issue. Happy to help.

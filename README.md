@@ -1,8 +1,10 @@
 <div align="center">
 
-# 🎙️ TTS Dataset Cleaner
+# 🎙️ VoxPolish
 
-### Turn noisy audio into clean, training-ready TTS datasets — in one command.
+### A TTS Dataset Cleaner — turn noisy audio into clean, training-ready datasets in one command.
+
+<sub>TTS dataset cleaner · audio dataset cleaner · speech denoising · noise removal · silence trimming · loudness normalization for text-to-speech training</sub>
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
@@ -19,7 +21,7 @@
 
 ## 💡 Why this exists
 
-Training a good text-to-speech (TTS) model needs **clean audio**. Real-world recordings have background hum, fan noise, room echo, inconsistent volume, and dead air at the start and end of clips. Cleaning a dataset by hand is impossible at scale.
+**VoxPolish is an open-source TTS dataset cleaner.** Training a good text-to-speech (TTS) model needs **clean audio**. Real-world recordings have background hum, fan noise, room echo, inconsistent volume, and dead air at the start and end of clips. Cleaning a dataset by hand is impossible at scale.
 
 **TTS Dataset Cleaner** runs your whole dataset through a 3-stage pipeline automatically:
 
@@ -71,8 +73,8 @@ Real output from this tool. The waveforms show the constant noise floor removed 
 ### 1. Clone
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/tts-dataset-cleaner.git
-cd tts-dataset-cleaner
+git clone https://github.com/Jeevav62/voxpolish.git
+cd voxpolish
 ```
 
 ### 2. Create a virtual environment
