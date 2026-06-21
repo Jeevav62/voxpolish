@@ -159,4 +159,5 @@ Clean noisy speech for text-to-speech training: **neural denoise → silence tri
 
 
 if __name__ == "__main__":
-    demo.launch()
+    # ssr_mode=False avoids the gradio 5 "No API found" routing bug on HF Spaces
+    demo.queue().launch(ssr_mode=False)
