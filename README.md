@@ -10,6 +10,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Neural Denoising](https://img.shields.io/badge/neural-denoising-6c63ff.svg)]()
 [![GPU + CPU](https://img.shields.io/badge/runs%20on-GPU%20%7C%20CPU-00d4aa.svg)]()
+[![Try it live](https://img.shields.io/badge/🤗%20Hugging%20Face-Try%20it%20Live-yellow.svg)](https://huggingface.co/spaces/jeevav62/voxpolish)
+
+### 👉 [**Try VoxPolish live in your browser**](https://huggingface.co/spaces/jeevav62/voxpolish) — upload audio, hear it cleaned instantly. No install.
 
 **Bad audio = bad TTS models.** This tool removes background noise, trims silence, and normalizes loudness across your entire dataset — so your TTS model trains on clean, consistent speech.
 

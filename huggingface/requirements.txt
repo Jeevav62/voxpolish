@@ -1,8 +1,7 @@
 --extra-index-url https://download.pytorch.org/whl/cpu
-torch>=2.0,<2.4
-torchaudio>=2.0,<2.4
+torch==2.3.0
+torchaudio==2.3.0
 deepfilternet>=0.5.6
-numpy>=1.22,<2.0
+numpy<2
 soundfile>=0.12
 pyloudnorm>=0.1.0
-gradio>=5.0
