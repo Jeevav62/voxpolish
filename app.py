@@ -1,4 +1,4 @@
-"""TTS Dataset Cleaner — Gradio UI"""
+"""VoxPolish — TTS Dataset Cleaner · Gradio UI"""
 
 import os
 import io
@@ -111,9 +111,9 @@ def process_zip(
 
 
 # ── UI ───────────────────────────────────────────────────────────────────────
-with gr.Blocks(title="TTS Dataset Cleaner") as demo:
+with gr.Blocks(title="VoxPolish — TTS Dataset Cleaner") as demo:
     gr.Markdown("""
-# TTS Dataset Cleaner
+# 🎙️ VoxPolish — TTS Dataset Cleaner
 Upload your dataset as a **ZIP file** → get back a clean, training-ready dataset.
 
 **Pipeline:** neural noise removal → silence trimming → loudness normalization (-23 LUFS)

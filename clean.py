@@ -1,5 +1,5 @@
 """
-TTS Dataset Cleaner — CLI
+VoxPolish — TTS Dataset Cleaner CLI
 
 Usage:
     python clean.py --input ./my_dataset --output ./my_dataset_clean
@@ -27,7 +27,7 @@ from cleaner.pipeline import process_file, PipelineConfig, FileResult
 
 
 def parse_args():
-    p = argparse.ArgumentParser(description="TTS Dataset Cleaner")
+    p = argparse.ArgumentParser(description="VoxPolish — TTS Dataset Cleaner")
     p.add_argument("--input",       required=True,  type=Path)
     p.add_argument("--output",      required=True,  type=Path)
     p.add_argument("--no-pf",       action="store_true", help="Disable post-filter")
@@ -45,7 +45,7 @@ def write_report(output_dir: Path, results: list[FileResult], dataset_type: str)
     avg_ms = sum(r.latency_ms for r in ok) / len(ok) if ok else 0
 
     lines = [
-        "TTS Dataset Cleaner - Report",
+        "VoxPolish - TTS Dataset Cleaner Report",
         "=" * 40,
         f"Dataset type   : {dataset_type}",
         f"Total files    : {len(results)}",

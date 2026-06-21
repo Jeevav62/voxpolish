@@ -1,4 +1,4 @@
-"""TTS Dataset Cleaner — neural audio cleaning for TTS training data."""
+"""VoxPolish — TTS Dataset Cleaner. Neural audio cleaning for TTS training data."""
 
 # Silence noisy third-party warnings BEFORE importing df / torch
 import warnings

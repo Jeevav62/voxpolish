@@ -5,13 +5,18 @@ readme = Path(__file__).parent / "README.md"
 long_description = readme.read_text(encoding="utf-8") if readme.exists() else ""
 
 setup(
-    name="tts-dataset-cleaner",
+    name="voxpolish",
     version="0.1.0",
-    description="Turn noisy audio into clean, training-ready TTS datasets in one command.",
+    description="VoxPolish — a TTS dataset cleaner. Remove noise, trim silence, and normalize loudness for text-to-speech training data in one command.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     author="Jeeva",
-    url="https://github.com/YOUR_USERNAME/tts-dataset-cleaner",
+    url="https://github.com/Jeevav62/voxpolish",
+    keywords=[
+        "tts", "tts-dataset", "dataset-cleaner", "text-to-speech",
+        "speech-enhancement", "audio-denoising", "noise-reduction",
+        "audio-processing", "dataset-cleaning", "voice", "deep-learning",
+    ],
     license="MIT",
     packages=find_packages(),
     python_requires=">=3.8",
@@ -26,7 +31,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "tts-clean=clean:main",
+            "voxpolish=clean:main",
         ],
     },
     classifiers=[
