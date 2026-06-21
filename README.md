@@ -37,25 +37,25 @@ Point it at a folder. Get back a clean dataset. That's it.
 
 ## 🎧 See & Hear the Difference
 
-Real output from this tool — **press play to hear noisy → cleaned, back to back.** Each clip plays the original first, then the VoxPolish output (denoised, silence-trimmed, normalized to -23 LUFS). The waveform shows the constant noise floor removed and dead air trimmed.
+Real output from this tool. The waveforms show the constant noise floor removed and dead air trimmed — speech stays, everything else goes. Click a **▶️ Play** link to hear the audio on GitHub.
+
+<!-- INLINE_VIDEO_JEEVA -->
 
 ### 🗣️ Voice Recording
 
-https://github.com/Jeevav62/voxpolish/raw/main/demo/jeeva_demo.mp4
-
 ![Voice before and after](demo/waveform_jeeva.png)
 
-▶️ Or download: [Before (noisy)](demo/jeeva_before.ogg) · [After (cleaned)](demo/jeeva_after.wav)
+▶️ **Play:** [Before (noisy)](demo/jeeva_before.ogg) · [After (cleaned)](demo/jeeva_after.wav)
+
+<!-- INLINE_VIDEO_CAR -->
 
 ### 🚗 Background / Traffic Noise
 
-https://github.com/Jeevav62/voxpolish/raw/main/demo/car_demo.mp4
-
 ![Background noise before and after](demo/waveform_car.png)
 
-▶️ Or download: [Before (noisy)](demo/car_before.wav) · [After (cleaned)](demo/car_after.wav)
+▶️ **Play:** [Before (noisy)](demo/car_before.wav) · [After (cleaned)](demo/car_after.wav)
 
-> The video players above play **noisy → cleaned** in sequence so you can hear the difference directly on GitHub.
+> Every "after" file is denoised, silence-trimmed, and normalized to -23 LUFS.
 
 ---
 
@@ -291,12 +291,17 @@ Open an issue or PR.
 
 ## 🙋 Work With Me
 
-I'm **Jeeva** — I build practical ML and audio tooling, and I'm **open to collaboration, open-source projects, and hiring opportunities**. If you want to build great things together (or need someone who ships), reach out:
+I'm **Jeeva** — I turn **research papers into shipping products**: reading the latest work and rebuilding it into real features, tools, and ideas people can use. VoxPolish is one example — a research-grade speech model wrapped into a one-command product.
+
+**What I do:**
+- 🔬 **Research → product** — take papers/models and ship them as usable features
+- 🗣️ **Fine-tune TTS & LLMs** — voice cloning, custom speech models, domain-tuned language models
+- 🛠️ **Practical ML & audio tooling** — pipelines, datasets, and apps that actually run
+
+I'm **open to collaboration, open-source work, and hiring opportunities.** If you need someone who reads the paper *and* ships the product, let's talk:
 
 - 🤗 **Hugging Face:** [huggingface.co/jeevav62](https://huggingface.co/jeevav62)
-- 🌐 **Portfolio:** [my portfolio](https://portfolio-3nmcwtia3-jeevav62s-projects.vercel.app/)
-
-Whether it's audio ML, dataset tooling, or full-stack AI apps — let's talk.
+- 🌐 **Portfolio:** [see my work](https://portfolio-3nmcwtia3-jeevav62s-projects.vercel.app/)
 
 ---
 
