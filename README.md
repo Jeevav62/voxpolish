@@ -40,25 +40,23 @@ Point it at a folder. Get back a clean dataset. That's it.
 
 ## 🎧 See & Hear the Difference
 
-The waveforms show the constant noise floor removed and dead air trimmed — speech stays, everything else goes. **▶️ [Try it live](https://huggingface.co/spaces/jeevav62/voxpolish)** to clean your own audio instantly.
+The waveforms show the constant noise floor removed and dead air trimmed — speech stays, everything else goes.
+
+> 🎧 **Want to actually hear it?** **[▶️ Try VoxPolish live](https://huggingface.co/spaces/jeevav62/voxpolish)** — upload any clip and hear it cleaned with a real audio player. Or tap the Before/After links below to play the demo clips.
 
 ### 🗣️ Voice Recording
 
 ![Voice before and after](demo/waveform_jeeva.png)
 
-<!-- AUDIO_JEEVA -->
-
-▶️ Play: [Before (noisy)](demo/jeeva_before.ogg) · [After (cleaned)](demo/jeeva_after.wav)
+🔴 [**Before — noisy**](https://github.com/user-attachments/files/29194171/jeeva_before.mp3) &nbsp;→&nbsp; 🟢 [**After — cleaned**](https://github.com/user-attachments/files/29194222/jeeva_after.mp3)
 
 ### 🚗 Background / Traffic Noise
 
 ![Background noise before and after](demo/waveform_car.png)
 
-<!-- AUDIO_CAR -->
+🔴 [**Before — noisy**](https://github.com/user-attachments/files/29194256/car_before.mp3) &nbsp;→&nbsp; 🟢 [**After — cleaned**](https://github.com/user-attachments/files/29194296/car_after.mp3)
 
-▶️ Play: [Before (noisy)](demo/car_before.wav) · [After (cleaned)](demo/car_after.wav)
-
-> Every "after" clip is denoised, silence-trimmed, and normalized to -23 LUFS.
+> Every "after" clip is denoised, silence-trimmed, and normalized to -23 LUFS. Clips are MP3 — they play in your browser when opened.
 
 ---
 
