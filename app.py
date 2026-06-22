@@ -146,4 +146,10 @@ Supports: raw audio folders, LJSpeech format (wavs/ + metadata.csv), VCTK format
 
 
 if __name__ == "__main__":
-    demo.launch(share=False, inbrowser=True, theme=gr.themes.Soft())
+    demo.launch(
+        server_name=os.getenv("GRADIO_SERVER_NAME", "127.0.0.1"),
+        server_port=int(os.getenv("GRADIO_SERVER_PORT", "7860")),
+        share=False,
+        inbrowser=os.getenv("GRADIO_INBROWSER", "1") == "1",
+        theme=gr.themes.Soft(),
+    )

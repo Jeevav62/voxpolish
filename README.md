@@ -77,12 +77,39 @@ The waveforms show the constant noise floor removed and dead air trimmed — spe
 
 ## 🚀 Quick Start
 
-### 1. Clone
-
 ```bash
 git clone https://github.com/Jeevav62/voxpolish.git
 cd voxpolish
 ```
+
+Then pick the path that suits you:
+
+### 🐳 Option A — Docker (zero setup)
+
+Runs the web UI in a container — no Python, no dependencies to install.
+
+```bash
+docker compose up --build
+# open http://localhost:7860
+```
+
+Or clean a dataset headlessly via the CLI in the container:
+
+```bash
+docker compose run --rm voxpolish python clean.py --input /data/in --output /data/out
+# put your dataset in ./data/in — cleaned files appear in ./data/out
+```
+
+### ⚡ Option B — one-command script
+
+Creates a venv, auto-installs GPU **or** CPU PyTorch, and all dependencies.
+
+```bash
+bash setup.sh        # sets everything up
+bash run.sh          # launches the web UI
+```
+
+### 🔧 Option C — manual setup
 
 ### 2. Create a virtual environment
 

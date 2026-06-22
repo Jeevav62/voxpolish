@@ -1,0 +1,13 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+.git/
+.github/
+huggingface/
+samples/clean/
+samples/noisy/*.wav
+demo_review/
+*.zip
+*.log
+.DS_Store
