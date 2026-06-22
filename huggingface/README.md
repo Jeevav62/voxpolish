@@ -9,6 +9,7 @@ python_version: "3.10"
 app_file: app.py
 pinned: true
 license: mit
+thumbnail: https://huggingface.co/spaces/jeevav62/voxpolish/resolve/main/banner.png
 short_description: Clean noisy audio for TTS training data
 ---
 
