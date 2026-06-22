@@ -1,0 +1,10 @@
+# Normalize line endings — keep text as LF in the repo
+* text=auto eol=lf
+
+# Binary assets — never normalize
+*.png binary
+*.jpg binary
+*.mp4 binary
+*.wav binary
+*.ogg binary
+*.flac binary
