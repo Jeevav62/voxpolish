@@ -1,6 +1,8 @@
 <div align="center">
 
-# 🎙️ VoxPolish
+<img src="assets/banner.png" alt="VoxPolish — TTS Dataset Cleaner" width="100%" />
+
+# VoxPolish
 
 ### A TTS Dataset Cleaner — turn noisy audio into clean, training-ready datasets in one command.
 
